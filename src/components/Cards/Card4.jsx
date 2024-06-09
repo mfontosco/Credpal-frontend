@@ -1,7 +1,7 @@
 import { FiArrowRight } from 'react-icons/fi';
-const Cards = () => {
+const Card4 = () => {
    return (
-      <div className={`w-1/4 h-full bg-[#F6F0EF] px-2 `}>
+      <div className={`w-1/4 h-full bg-[#EBF1FF]`}>
          {' '}
          <div className="mt-24">
             <h2 className="font-[700] text-[32px] mb-4 leading-[41.66px]">
@@ -12,7 +12,7 @@ const Cards = () => {
                the option to pay now or pay later, based on the available
                payment options.
             </p>
-            <p className="flex items-center">
+            <p>
                Learn More{' '}
                <span>
                   <FiArrowRight />
@@ -23,4 +23,4 @@ const Cards = () => {
    );
 };
 
-export default Cards;
+export default Card4;

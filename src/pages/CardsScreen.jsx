@@ -1,12 +1,15 @@
+import Card2 from '../components/Cards/Card2';
+import Card3 from '../components/Cards/Card3';
+import Card4 from '../components/Cards/Card4';
 import Cards from '../components/Cards/Cards';
 
 const CardsScreen = () => {
    return (
-      <div className="w-full h-[460px] flex border border-black">
+      <div className="w-full gap-2 h-[350px] flex border border-black">
          <Cards color={'#F6F0EF'} />
-         <Cards color={'#F4F1F7'} />
-         <Cards color={'#E8F4FF'} />
-         <Cards color={'#EBF1FF'} />
+         <Card2 color={'#F4F1F7'} />
+         <Card3 color={'#E8F4FF'} />
+         <Card4 color={'#EBF1FF'} />
       </div>
    );
 };
