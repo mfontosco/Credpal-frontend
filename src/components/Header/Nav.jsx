@@ -5,7 +5,7 @@ const Nav = () => {
          <ul className="text-white flex items-center justify-between w-2/5 ">
             <li>
                {' '}
-               <img src={logo} className="bg-white " alt="credpal-logo" />
+               <img src={logo} className=" " alt="credpal-logo" />
             </li>
             <li>Products</li>
             <li>Business</li>

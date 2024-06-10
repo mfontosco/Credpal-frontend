@@ -1,12 +1,13 @@
 import googleplay from '../../assets/googleplay.png';
 import applestore from '../../assets/appstore.png';
+import logo from '../../assets/logo.svg';
 const Footer = () => {
    return (
       <div className=" w-full h-full mb-10 flex  ">
          <div className="w-1/3">
             <ul>
                <li>
-                  <h2 className="px-2">CredPal</h2>
+                  <img src={logo} className="" alt="credpal-logo" />
                </li>
                <li className="mt-5">
                   <p className="font-[400] text-[12px] px-2 leading-[26px]">

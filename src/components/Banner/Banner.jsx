@@ -1,7 +1,7 @@
 const Banner = () => {
    return (
       <div className="h-[500px] w-full flex justify-center items-center ">
-         <div className="h-[250px] w-full  flex  justify-center items-center mx-auto border border-black bg-[#3772FF]">
+         <div className="h-[250px] w-full  flex  justify-center items-center mx-auto  bg-[#3772FF]">
             <div className="w-3/5 text-center text-white">
                <h2 className="text-center text-[36px] font-[700] leading-[46.87px]">
                   Start building your credit score today

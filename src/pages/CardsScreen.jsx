@@ -5,7 +5,7 @@ import Cards from '../components/Cards/Cards';
 
 const CardsScreen = () => {
    return (
-      <div className="w-full gap-2 h-[350px] flex border border-black">
+      <div className="w-full gap-2 h-[350px] flex ">
          <Cards color={'#F6F0EF'} />
          <Card2 color={'#F4F1F7'} />
          <Card3 color={'#E8F4FF'} />
